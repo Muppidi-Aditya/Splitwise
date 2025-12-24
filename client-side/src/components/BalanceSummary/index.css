@@ -1,0 +1,139 @@
+.balance-summary {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 24px;
+}
+
+.balance-summary-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.balance-summary-header h3 {
+    margin: 0;
+    color: #333;
+    font-size: 20px;
+}
+
+.view-toggle {
+    display: flex;
+    gap: 4px;
+    background: #f5f5f5;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+.view-toggle button {
+    padding: 6px 12px;
+    border: none;
+    background: transparent;
+    color: #666;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.2s;
+}
+
+.view-toggle button.active {
+    background: white;
+    color: #667eea;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.section-description {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.balance-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.balance-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background: #f9f9f9;
+    border-radius: 6px;
+    transition: background 0.2s;
+}
+
+.balance-item:hover {
+    background: #f0f0f0;
+}
+
+.balance-item.simplified {
+    border-left: 3px solid #999;
+}
+
+.balance-item.detailed.negative-item {
+    border-left: 3px solid #ef4444;
+}
+
+.balance-item.detailed.positive-item {
+    border-left: 3px solid #10b981;
+}
+
+.balance-text {
+    color: #333;
+    font-size: 14px;
+}
+
+.balance-text strong {
+    font-weight: 600;
+}
+
+.balance-user {
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.balance-amount {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.balance-amount.positive {
+    color: #10b981;
+}
+
+.balance-amount.negative {
+    color: #ef4444;
+}
+
+.no-balances {
+    text-align: center;
+    padding: 40px 20px;
+    color: #999;
+}
+
+.no-balances p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.loading,
+.error-message {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+.error-message {
+    color: #c33;
+    background: #fee;
+    border-radius: 6px;
+}
+

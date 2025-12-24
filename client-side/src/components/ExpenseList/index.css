@@ -1,0 +1,154 @@
+.expense-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.expense-list-empty {
+    text-align: center;
+    padding: 40px 20px;
+    color: #999;
+    font-size: 16px;
+}
+
+.expense-item {
+    background: white;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s;
+    position: relative;
+}
+
+.expense-item:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.expense-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 12px;
+}
+
+.expense-info {
+    flex: 1;
+}
+
+.expense-description {
+    margin: 0 0 4px 0;
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.expense-date {
+    color: #999;
+    font-size: 12px;
+}
+
+.expense-amount {
+    font-size: 20px;
+    font-weight: 700;
+    color: #667eea;
+}
+
+.expense-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    padding-top: 12px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.expense-paid-by {
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.expense-paid-by .label {
+    color: #666;
+}
+
+.expense-paid-by .value {
+    color: #333;
+    font-weight: 500;
+}
+
+.expense-split-type .badge {
+    background: #f0f0f0;
+    color: #666;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.expense-splits {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.splits-header {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.splits-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.split-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.split-user {
+    color: #333;
+}
+
+.split-amount {
+    color: #666;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.split-percentage {
+    color: #999;
+    font-size: 12px;
+}
+
+.delete-expense-btn {
+    margin-top: 12px;
+    margin-left: auto;
+    display: block;
+    background: #fee;
+    color: #c33;
+    border: 1px solid #fcc;
+    padding: 6px 16px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    width: fit-content;
+}
+
+.delete-expense-btn:hover {
+    background: #fcc;
+    border-color: #c33;
+    transform: translateY(-1px);
+}
+
