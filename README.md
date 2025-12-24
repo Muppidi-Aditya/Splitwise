@@ -258,6 +258,26 @@ npm run preview  # Preview production build
 - CORS configuration
 - Environment variable protection
 
+## Preview
+<img width="336" height="725" alt="Screenshot 2025-12-24 at 7 19 17 PM" src="https://github.com/user-attachments/assets/e1ddeb2a-4abe-4e34-843b-5c50a428e970" />
+
+<img width="335" height="730" alt="Screenshot 2025-12-24 at 7 19 57 PM" src="https://github.com/user-attachments/assets/39a7668a-205f-48a4-beb1-46f83f3d6e61" />
+
+![PHOTO-2025-12-24-19-23-22](https://github.com/user-attachments/assets/b8c07d3f-3289-481b-8ace-3f66eec06d5d)
+
+
+<img width="341" height="726" alt="Screenshot 2025-12-24 at 7 20 16 PM" src="https://github.com/user-attachments/assets/59a24c22-909a-40e2-acde-cc7da85d674b" />
+
+<img width="336" height="725" alt="Screenshot 2025-12-24 at 7 20 31 PM" src="https://github.com/user-attachments/assets/87b92c41-c042-401b-aed2-8898dc265264" />
+
+<img width="322" height="189" alt="Screenshot 2025-12-24 at 7 21 19 PM" src="https://github.com/user-attachments/assets/3df46853-de78-4860-82bf-5778a61c9ece" />
+
+<img width="336" height="729" alt="Screenshot 2025-12-24 at 7 21 08 PM" src="https://github.com/user-attachments/assets/f44d3727-fe1b-4555-bd41-8ca8b941d897" />
+
+![PHOTO-2025-12-24-19-23-41](https://github.com/user-attachments/assets/c439ee77-d12c-4331-9261-7b3ad4c01833)
+
+
+
 ## 📄 License
 
 This project is private and proprietary.
