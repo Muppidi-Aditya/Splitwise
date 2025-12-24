@@ -14,7 +14,26 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use(cors());
+const corsOptions = {
+    origin: function (origin, callback) {
+        const allowedOrigins = [
+            'http://localhost:5173',
+            'http://localhost:3000',
+            process.env.FRONTEND_URL,
+        ].filter(Boolean);
+        
+        if (!origin || allowedOrigins.includes(origin)) {
+            callback(null, true);
+        } else {
+            callback(null, true);
+        }
+    },
+    credentials: true,
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+};
+
+app.use(cors(corsOptions));
 app.use(express.json());
 
 app.get('/', (req, res) => {
